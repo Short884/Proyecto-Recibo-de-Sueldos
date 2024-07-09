@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #76c7c0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #a0a0a0;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #76c7c0;
+}
+
+button {
+    background-color: #76c7c0;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5baea7;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #76c7c0;
+}
+
+.recibo {
+    margin-top: 20px;
+}
+
+.receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.receipt-table th, .receipt-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.receipt-table th {
+    background-color: #2a2a2a;
+    color: #a0a0a0;
+}
+
+.receipt-table td {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.receipt-subtotals {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #76c7c0;
+}
+
+.receipt-subtotals div {
+    margin-bottom: 5px;
+}
